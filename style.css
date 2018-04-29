@@ -1,0 +1,44 @@
+
+.container-fluid {
+  width: 100%;
+  height: 120vh;
+  background-size: 100vw 120vh;
+  background-repeat: no-repeat;
+  background-color: #8080ff;
+}
+.panel {
+  position: absolute;
+  top: 38vh;
+  left: 38vw;
+/*  margin: 2vw 28vw 1vw 28vw; */
+  padding: 1vw 3vw 1vw 3vw;
+  background-color: rgba(204, 204, 204, 0.2);
+}
+.text {
+  height: 30vh;
+  width: 50 vw;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.article {
+  margin: 10vh 1.5vw 1vh 39vw;
+}
+.article button {
+  color: #ffff;
+  background-color: rgba(204, 204, 204, 0.2);
+  outline: none;
+  text-align: left;
+  border:  rgba(204, 204, 204, 0.2);
+}
+.btn {
+  background-color: #ccb3ff;
+}
+ *:focus, *:active {
+    outline: none !important;
+}
+.form-control:focus {
+  border-color: inherit;
+  box-shadow: none;
+}
