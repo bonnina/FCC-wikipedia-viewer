@@ -14,10 +14,11 @@ $(function(){
     return false;
   });
   
-  // to search for Wikipedia entries
+  // to display search results from Wikipedia
   $("#search").click(function() {
     $(".article").empty();
-    $(".panel").css({'padding' : '0.5vw'}).animate({left : '2.5vw', top : '9vh'}, 400);
+    $(".btn").css({'font-size' : '1.3vw', 'line-height' : '0.85'});
+    $(".panel").css({'padding' : '0.5vw'}).animate({left : '2vw', top : '5vh'}, 400);
     end = $("#in").val();
     link = "https://en.wikipedia.org/w/api.php?action=opensearch&limit=6&search=" + end + "&format=json&callback=?";
     
