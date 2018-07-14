@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-  <html>
+  <html lang="en">
   
     <head>
       <title>FCC Wikipedia Viewer</title>
@@ -16,7 +16,8 @@
         <div class="panel">
           <div class="form-inline">
             <button class="btn" id="random">random Wiki article</button>
-            <input class="form-control" id="in" type="text"/>
+            <input class="form-control" id="in" type="text" aria-describedby="#help"/>
+		  <div id="help" hidden>Search in Wikipedia</div>
             <button class="btn" id="search" type="submit">search</button>
           </div>
         </div>
