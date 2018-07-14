@@ -34,8 +34,10 @@ a {
 }
 .btn {
   background-color: #ccb3ff;
+  font-size: 2vw;
+  line-height: 0.75;
 }
- *:focus, *:active {
+ .btn:focus, .btn:active {
     outline: none !important;
 }
 .form-control:focus {
